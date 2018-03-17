@@ -10,4 +10,4 @@ class Account:
 
     # Metodo para recuperar os creditos.
     def getCredits(self):
-        return self.__credits
+        print('Olá, %s. Você possui %s em conta.' % (self.name, self.__credits))
