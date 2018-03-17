@@ -1,4 +1,4 @@
-class Account():
+class Account:
 
     def __init__(self, name, credits=0):
         self.name = name
